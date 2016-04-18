@@ -28,7 +28,7 @@ public class LeapYear {
     }, new VelocityTemplateEngine());
   }
 
-  public Boolean isLeapYear(Integer year) {
+  public static Boolean isLeapYear(Integer year) {
     if (year % 400 == 0) {
       return true;
     } else if ( year % 100 == 0 ) {
